@@ -1,0 +1,4 @@
+CodeConvert==1.0.0
+Django==1.6
+requests==2.2.1
+South==0.8.4

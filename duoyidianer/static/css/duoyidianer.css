@@ -1,0 +1,254 @@
+/* -
+    duoyidianer.css is must header before bootstrap-responsive(.min).css
+	otherwise navbar will display error when browser half-screen
+   - */
+body {
+	font: normal 14px/1.5 Tahoma,Helvetica,arial,sans-serif;
+    background-color: #F7F7F7 !important;
+}
+
+ul, ul li {
+    list-style: none;
+    list-style-type: none;
+}
+
+/* -
+    Alignment of bootstrap's table content
+    .hvcenter - 水平/垂直 居中
+	.hcenter - 水平居中
+	.vcenter - 垂直居中
+   - */
+.hvcenter, th, td {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+.hcenter {
+    text-align: center !important;
+}
+
+.vcenter {
+    vertical-align: middle !important;
+}
+
+/* -
+    force break long word/url etc
+	to make it not overflow container
+	ref: http://www.cnblogs.com/2050/archive/2012/08/10/2632256.html
+   - */
+.table-layout {
+    table-layout: fixed;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+/* -
+    Style of back top
+   - */
+.backtop {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	display: none;
+	width: 49px;
+	height: 35px;
+	text-decoration: none;
+	opacity: 0.5;
+	background: url(//style.neoease.org/img/paled/sprite.png?v=010514) no-repeat 0 -424px;
+}
+
+
+
+.banner {
+    position:relative;
+    height: 115px;
+}
+
+.logo {
+    position:absolute;
+    left: 65px;
+    top: 20px;
+    color: #c48ebf;
+    font: normal 82.88px "方正细珊瑚简体","宋体",Arial,Times;
+    cursor: pointer;
+}
+
+.slogan {
+    position:absolute;
+    left: 280px;
+    top: 60px;
+    color: #ee6842;
+    font: bold 24.17px "方正北魏楷书简体","宋体",Arial,Times;
+}
+
+.domain {
+    position:absolute;
+    left: 275px;
+    top: 85px;
+    color: #e70014;
+    font: normal 17.27px "方正北魏楷书简体","宋体",Arial,Times;
+}
+
+.join {
+    position:absolute;
+    right: 45px;
+    top: 12px;
+    color: #bfbfbf;
+    font: normal 24.17px "方正北魏楷书简体","宋体",Arial,Times;
+}
+
+.tel {
+    position:absolute;
+    right: 45px;
+    top: 70px;
+    color: #bfbfbf;
+    font: normal 31.08px "方正北魏楷书简体","宋体",Arial,Times;
+}
+
+.tel2 {
+    color: #bfbfbf;
+    font: normal 24.17px "方正北魏楷书简体","宋体",Arial,Times;
+}
+
+.menu {
+    margin: 5px 0 15px 0;
+    padding: 10px 0;
+    background-color: #fd5151;
+}
+
+.menu span {
+    color: #fff;
+    margin-right: 24.17px;
+    font: normal 27.63px "方正北魏楷书简体","宋体",Arial,Times;
+    cursor: pointer;
+}
+
+.menu span:first-child {
+    margin-left: 65px;
+}
+
+.menu span:nth-last-child(2) {
+    margin-right: 35px;
+}
+
+.menu a {
+    color: #fff;
+    margin-right: 24.17px;
+    font: normal 27.63px "方正北魏楷书简体","宋体",Arial,Times;
+}
+
+.menu a:first-child {
+    margin-left: 65px;
+}
+
+.menu a:nth-last-child(2) {
+    margin-right: 35px;
+}
+
+.cookbook {
+    width: 85px;
+    padding: 5px 10px 10px 10px;
+    margin-left: 85px;
+    text-align: center;
+    color: #fff;
+    background-color: #fd5151;
+    font: normal 24.17px "微软雅黑","宋体",Arial,Times;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.cook_classify {
+    width: 222px;
+    margin-top: -10px;
+    margin-left: 65px;
+    border: 3px solid #ebe9ea;
+    background-color: #fff;
+    font: normal 18.99px "微软雅黑","宋体",Arial,Times;
+}
+
+.cook_classify ul {
+     margin: 25px 0;
+}
+
+.cook_classify li {
+    height: 35px;
+    line-height: 35px;
+    margin: 5px 20px;
+    padding: 5px 15px;
+    display: block;
+    background-color: #ebe9ea;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cook_classify li:first-child {
+    color: #fb5760;
+}
+
+.welcome {
+    padding: 10px;
+    text-align: center;
+    background-color: #fc4679;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font: normal 17.27px "微软雅黑","宋体",Arial,Times;
+}
+
+.dishes img {
+    width: 170px;
+    height: 170px;
+}
+
+.dishes p {
+    padding: 5px;
+    background-color: #ebe9ea;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.cart {
+    margin-right: 35px;
+    padding: 20px;
+    border: 3px solid #ebe9ea;
+    background-color: #fff;
+    font: normal 18.99px "微软雅黑","宋体",Arial,Times;
+}
+
+.cart p:first-child {
+    padding: 5px;
+    background-color: #ebe9ea;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font: normal 24.17px "微软雅黑","宋体",Arial,Times;
+}
+
+.cart p:last-child {
+    padding: 5px;
+    background-color: #ebe9ea;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font: normal 31.08px "宋体",Arial,Times;
+}
+
+.cart .price {
+    color: #fb5760;
+    font: normal 24.17px "宋体",Arial,Times;
+}
+
+.link {
+    border-top: 3px solid #ebe9ea;
+    padding-top: 20px;
+    font: normal 20.72px "宋体",Arial,Times;
+}
+
+.copyright {
+    padding: 20px;
+    font: normal 18.99px "宋体",Arial,Times;
+}

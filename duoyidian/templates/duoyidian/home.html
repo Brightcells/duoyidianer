@@ -1,0 +1,41 @@
+{% extends "duoyidianer/duoyidianer_base.html" %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="row-fluid">
+        <div class="span3">
+            <div class="cookbook">
+                <span>菜谱</span>
+            </div>
+            <div class="cook_classify">
+                <ul>
+                    {% for menu in menus %}
+                        <li><span onclick="location.href='{% url 'duoyidian:home' menu.pk %}'">{{ menu.classify }}</span></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="span6">
+            <div class="welcome"><span>尊敬的客户您好，欢迎您订购多一点快餐，^v^</span></div>
+            <div class="row-fluid dishes">
+                {% for dish in dishs %}
+                    {% if forloop.counter0|divisibleby:3 %}
+                        </div>
+                        <div class="row-fluid dishes">
+                    {% endif %}
+                    <div class="span4 text-center">
+                        <img src="{{ dish.image }}">
+                        <p>{{ dish.name }}/{{ dish.price }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="span3 text-center">
+            <div class="cart">
+                <p>我的餐车</p>
+                <p class="price">总价： 0￥</p>
+                <p>OK，就这些了</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
