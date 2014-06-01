@@ -66,48 +66,32 @@ ul, ul li {
 
 .logo {
     position:absolute;
-    left: 65px;
-    top: 20px;
-    color: #c48ebf;
-    font: normal 82.88px "方正细珊瑚简体","宋体",Arial,Times;
+    left: 25px;
+    top: 15px;
     cursor: pointer;
-}
-
-.slogan {
-    position:absolute;
-    left: 280px;
-    top: 60px;
-    color: #ee6842;
-    font: bold 24.17px "方正北魏楷书简体","宋体",Arial,Times;
-}
-
-.domain {
-    position:absolute;
-    left: 275px;
-    top: 85px;
-    color: #e70014;
-    font: normal 17.27px "方正北魏楷书简体","宋体",Arial,Times;
 }
 
 .join {
     position:absolute;
     right: 45px;
-    top: 12px;
+    top: 40px;
+    cursor: pointer;
     color: #bfbfbf;
-    font: normal 24.17px "方正北魏楷书简体","宋体",Arial,Times;
+    font: normal 18.13px "方正北魏楷书简体","宋体",Arial,Times;
 }
 
 .tel {
     position:absolute;
     right: 45px;
-    top: 70px;
+    top: 80px;
+    cursor: pointer;
     color: #bfbfbf;
-    font: normal 31.08px "方正北魏楷书简体","宋体",Arial,Times;
+    font: normal 23.31px "方正北魏楷书简体","宋体",Arial,Times;
 }
 
 .tel2 {
     color: #bfbfbf;
-    font: normal 24.17px "方正北魏楷书简体","宋体",Arial,Times;
+    font: normal 18.13px "方正北魏楷书简体","宋体",Arial,Times;
 }
 
 .menu {
@@ -119,7 +103,7 @@ ul, ul li {
 .menu span {
     color: #fff;
     margin-right: 24.17px;
-    font: normal 27.63px "方正北魏楷书简体","宋体",Arial,Times;
+    font: normal 20.72px "方正北魏楷书简体","宋体",Arial,Times;
     cursor: pointer;
 }
 
@@ -134,7 +118,7 @@ ul, ul li {
 .menu a {
     color: #fff;
     margin-right: 24.17px;
-    font: normal 27.63px "方正北魏楷书简体","宋体",Arial,Times;
+    font: normal 20.72px "方正北魏楷书简体","宋体",Arial,Times;
 }
 
 .menu a:first-child {
@@ -152,7 +136,7 @@ ul, ul li {
     text-align: center;
     color: #fff;
     background-color: #fd5151;
-    font: normal 24.17px "微软雅黑","宋体",Arial,Times;
+    font: normal 18.13px "微软雅黑","宋体",Arial,Times;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -164,7 +148,7 @@ ul, ul li {
     margin-left: 65px;
     border: 3px solid #ebe9ea;
     background-color: #fff;
-    font: normal 18.99px "微软雅黑","宋体",Arial,Times;
+    font: normal 14.24px "微软雅黑","宋体",Arial,Times;
 }
 
 .cook_classify ul {
@@ -195,7 +179,7 @@ ul, ul li {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    font: normal 17.27px "微软雅黑","宋体",Arial,Times;
+    font: normal 12.95px "微软雅黑","宋体",Arial,Times;
 }
 
 .dishes img {
@@ -216,7 +200,7 @@ ul, ul li {
     padding: 20px;
     border: 3px solid #ebe9ea;
     background-color: #fff;
-    font: normal 18.99px "微软雅黑","宋体",Arial,Times;
+    font: normal 14.24px "微软雅黑","宋体",Arial,Times;
 }
 
 .cart p:first-child {
@@ -225,7 +209,7 @@ ul, ul li {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    font: normal 24.17px "微软雅黑","宋体",Arial,Times;
+    font: normal 18.13px "微软雅黑","宋体",Arial,Times;
 }
 
 .cart p:last-child {
@@ -234,21 +218,21 @@ ul, ul li {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    font: normal 31.08px "宋体",Arial,Times;
+    font: normal 23.31px "宋体",Arial,Times;
 }
 
 .cart .price {
     color: #fb5760;
-    font: normal 24.17px "宋体",Arial,Times;
+    font: normal 18.13px "宋体",Arial,Times;
 }
 
 .link {
     border-top: 3px solid #ebe9ea;
     padding-top: 20px;
-    font: normal 20.72px "宋体",Arial,Times;
+    font: normal 15.54px "宋体",Arial,Times;
 }
 
 .copyright {
     padding: 20px;
-    font: normal 18.99px "宋体",Arial,Times;
+    font: normal 14.24px "宋体",Arial,Times;
 }
